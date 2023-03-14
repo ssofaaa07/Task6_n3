@@ -5,7 +5,6 @@ public class Vertex {
     boolean isTerminal;
     Vertex parent;
     Character charOfParent;
-
     Vertex suffixLink;
     Vertex[] go;
 

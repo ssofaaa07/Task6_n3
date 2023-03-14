@@ -4,8 +4,8 @@ import java.util.List;
 
 public class Trie {
 
-    private int sizeOfAlphabet;
-    private ArrayList<Vertex> vertices;
+    int sizeOfAlphabet;
+    ArrayList<Vertex> vertices;
     Vertex root;
 
     public Trie(int sizeOfAlphabet) {
@@ -23,7 +23,7 @@ public class Trie {
         return vertices.get(vertices.size() - 1);
     }
 
-    public int charToIndex(char c) {
+    private int charToIndex(char c) {
         return c - 'a';
     }
 
@@ -49,33 +49,4 @@ public class Trie {
         }
         return v.isTerminal;
     }
-//
-//    public Vertex getLink(Vertex v) {
-//        if (v.suffixLink == null) {
-//            if (v == root || v.parent == root) {
-//                v.suffixLink = root;
-//            } else {
-//                v.suffixLink = this.go(this.getLink(v.parent), v.charOfParent);
-//            }
-//        }
-//        return v.suffixLink;
-//    }
-//
-//    public Vertex go(Vertex v, char c) {
-//        if (v.go[charToIndex(c)] == null) {
-//            if (v.next[charToIndex(c)] != null) {
-//                v.go[charToIndex(c)] = v.next[charToIndex(c)];
-//            } else if (v == root) {
-//                v.go[charToIndex(c)] = root;
-//            } else {
-//                v.go[charToIndex(c)] = this.go(getLink(v), c);
-//            }
-//        }
-//        return v.go[charToIndex(c)];
-//    }
-
-    public static void main(String[] args) {
-
-    }
-
 }

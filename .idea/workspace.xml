@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adbd9009-2299-471e-8bb4-44ffbae19c4a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AlgoritmOfAhoCorasick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vertex.java" afterDir="false" />
+    <list default="true" id="adbd9009-2299-471e-8bb4-44ffbae19c4a" name="Changes" comment="finish work with algorithm and trie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AhoCorasick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AhoCorasick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgoritmOfAhoCorasick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgorithmOfAhoCorasick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vertex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +71,17 @@
       <option name="presentableId" value="Default" />
       <updated>1678538411202</updated>
       <workItem from="1678538413162" duration="2287000" />
-      <workItem from="1678613334986" duration="5759000" />
+      <workItem from="1678613334986" duration="6522000" />
+      <workItem from="1678813896798" duration="1924000" />
     </task>
+    <task id="LOCAL-00001" summary="finish work with algorithm and trie">
+      <created>1678624413319</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678624413319</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finish work with algorithm and trie" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish work with algorithm and trie" />
   </component>
 </project>

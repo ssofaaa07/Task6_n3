@@ -1,8 +1,8 @@
-public class AlgoritmOfAhoCorasick {
+public class AlgorithmOfAhoCorasick {
 
     public Trie trie;
 
-    public AlgoritmOfAhoCorasick(Trie trie) {
+    public AlgorithmOfAhoCorasick(Trie trie) {
         this.trie = trie;
     }
 
@@ -10,7 +10,7 @@ public class AlgoritmOfAhoCorasick {
         this.trie = trie;
     }
 
-    public int charToIndex(char c) {
+    private int charToIndex(char c) {
         return c - 'a';
     }
 
